@@ -42,9 +42,10 @@ para consultar el clima de un día en particular
 
 ## Solución ##
 * La solución se puede lograr ver al ejecutar la clase Main y consumiendo los siguientes EndPoints:
-1. ("/clima/prediction") Te crea y alcemna en la BDD las predicciones de los siguientes 10 años
-2. ("/clima/periodos/sequia") ¿Cuántos períodos de sequía habrá? 
-3. ("/clima/periodos/periodos/lluvia") ¿Cuántos períodos de lluvia habrá?
-4. ("/clima/periodos/lluvia/diaPicoMax") ¿Qué día será el pico máximo de lluvia?
-5. ("/clima/periodos/condicionOptima") ¿Cuántos períodos de condiciones óptimas de presión y temperatura habrá?
-6. ("/clima/fecha") Buscar fecha y clima del día consultado
+
+1. http://localhost:8080/clima/prediction Te crea y alcemna en la BDD las predicciones de los siguientes 10 años
+2. http://localhost:8080/clima/periodos/sequia ¿Cuántos períodos de sequía habrá? 
+3. http://localhost:8080/clima/periodos/lluvia ¿Cuántos períodos de lluvia habrá?
+4. http://localhost:8080/clima/periodos/lluvia/diaPicoMax ¿Qué día será el pico máximo de lluvia?
+5. http://localhost:8080/clima/periodos/condicionOptima ¿Cuántos períodos de condiciones óptimas de presión y temperatura habrá?
+6. http://localhost:8080/clima/fecha?fecha=2024-08-15 Buscar fecha y clima del día consultado
